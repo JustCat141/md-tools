@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Essence Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="essence_calculator.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body class="container py-5">
+    <h2 class="text-center mb-4">Essence Calculator</h2>
+
+    <div class="mb-3">
+        <label for="beerAmount" class="form-label">Beer Amount</label>
+        <input type="number" class="form-control" id="beerAmount" placeholder="Enter beer amount" value="60" />
+    </div>
+
+    <div class="mb-3">
+        <label for="map" class="form-label">Map</label>
+        <select class="form-select" id="map"></select>
+    </div>
+
+    <div class="mb-3">
+        <label for="difficulty" class="form-label">Difficulty</label>
+        <select class="form-select" id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="normal">Normal</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="level" class="form-label">Level</label>
+        <select class="form-select" id="level">
+            <option value="lvl-01">1</option>
+            <option value="lvl-02">2</option>
+            <option value="lvl-03">3</option>
+            <option value="lvl-04">4</option>
+            <option value="lvl-05">5</option>
+            <option value="lvl-06">6</option>
+            <option value="lvl-07">7</option>
+            <option value="lvl-08">8</option>
+            <option value="lvl-09">9</option>
+            <option value="lvl-10">10</option>
+            <option value="lvl-b1">B1</option>
+            <option value="lvl-b2">B2</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="event" class="form-label">🌠 Event:</label>
+        <select class="form-select" id="event">
+            <option value="0">None</option>
+            <option value="0.5">50%</option>
+            <option value="1">100%</option>
+        </select>
+    </div>
+
+    <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="vipPass" />
+        <label class="form-check-label" for="vipPass">VIP Pass Active</label>
+    </div>
+
+    <button class="btn btn-primary mb-3 w-100" onclick="calculateResult()">Calculate</button>
+
+    <h3 class="text-center">Result: <span id="result">0 essence</span></h3>
+
+    <script src="essence_calculator.js"></script>
+</body>
+
+</html>

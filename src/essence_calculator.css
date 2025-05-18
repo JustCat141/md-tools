@@ -1,0 +1,82 @@
+body {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #f0e6ff;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 5px #ff00cc, 0 0 10px #3333ff;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #ff00cc;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff00cc, 0 0 20px #9900ff;
+    position: relative;
+    z-index: 10;
+}
+
+.form-label,
+.form-check-label,
+h3 {
+    text-shadow: 0 0 5px #ff00cc;
+    position: relative;
+    z-index: 10;
+}
+
+.form-control,
+.form-select {
+    background-color: #1e1e2f !important;
+    color: #f0e6ff !important;
+    border: 1px solid #ff00cc;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    border: none;
+    font-weight: bold;
+    box-shadow: 0 0 10px #ff00cc, 0 0 20px #3333ff;
+    position: relative;
+    z-index: 10;
+}
+
+#result {
+    font-size: 2rem;
+    color: #00ffea;
+    text-shadow: 0 0 10px #00ffea, 0 0 20px #ff00cc;
+    display: inline-block;
+    width: 12ch;
+    /* fixed width to prevent bouncing */
+    text-align: right;
+    position: relative;
+    z-index: 10;
+}
+
+.beer-float {
+    position: fixed;
+    opacity: 0.2;
+    user-select: none;
+    pointer-events: none;
+    will-change: transform;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: floatHorizontalSpin;
+}
+
+@keyframes floatHorizontalSpin {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateX(200px) rotate(180deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(360deg);
+    }
+}

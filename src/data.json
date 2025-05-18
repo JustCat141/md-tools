@@ -1,0 +1,172 @@
+{
+    "dropChance": {
+        "lvl-01": 0.650,
+        "lvl-02": 0.667,
+        "lvl-03": 0.683,
+        "lvl-04": 0.700,
+        "lvl-05": 0.717,
+        "lvl-06": 0.733,
+        "lvl-07": 0.750,
+        "lvl-08": 0.767,
+        "lvl-09": 0.783,
+        "lvl-10": 0.800,
+        "lvl-b1": 0.650,
+        "lvl-b2": 0.650
+    },
+    "levels": [
+        {
+            "level": 1,
+            "name": "Maerwynn",
+            "beerRequired": 4,
+            "diff_easy": 8,
+            "diff_normal": 9,
+            "diff_hard": 10,
+            "b_diff_easy": 9,
+            "b_diff_normal": 10,
+            "b_diff_hard": 11
+        },
+        {
+            "level": 2,
+            "name": "Black Forest",
+            "beerRequired": 5,
+            "diff_easy": 14,
+            "diff_normal": 15,
+            "diff_hard": 17,
+            "b_diff_easy": 15,
+            "b_diff_normal": 17,
+            "b_diff_hard": 19
+        },
+        {
+            "level": 3,
+            "name": "Gnarogrim",
+            "beerRequired": 5,
+            "diff_easy": 16,
+            "diff_normal": 18,
+            "diff_hard": 20,
+            "b_diff_easy": 18,
+            "b_diff_normal": 20,
+            "b_diff_hard": 22
+        },
+        {
+            "level": 4,
+            "name": "Stumble Steppe",
+            "beerRequired": 5,
+            "diff_easy": 17,
+            "diff_normal": 19,
+            "diff_hard": 21,
+            "b_diff_easy": 18,
+            "b_diff_normal": 21,
+            "b_diff_hard": 23
+        },
+        {
+            "level": 5,
+            "name": "Split Canyon",
+            "beerRequired": 6,
+            "diff_easy": 18,
+            "diff_normal": 20,
+            "diff_hard": 23,
+            "b_diff_easy": 20,
+            "b_diff_normal": 22,
+            "b_diff_hard": 25
+        },
+        {
+            "level": 6,
+            "name": "Sunburn Desert",
+            "beerRequired": 6,
+            "diff_easy": 21,
+            "diff_normal": 23,
+            "diff_hard": 26,
+            "b_diff_easy": 23,
+            "b_diff_normal": 26,
+            "b_diff_hard": 29
+        },
+        {
+            "level": 7,
+            "name": "Skull Island",
+            "beerRequired": 6,
+            "diff_easy": 22,
+            "diff_normal": 25,
+            "diff_hard": 28,
+            "b_diff_easy": 25,
+            "b_diff_normal": 28,
+            "b_diff_hard": 31
+        },
+        {
+            "level": 8,
+            "name": "Sprawling Jungle",
+            "beerRequired": 6,
+            "diff_easy": 26,
+            "diff_normal": 30,
+            "diff_hard": 33,
+            "b_diff_easy": 29,
+            "b_diff_normal": 33,
+            "b_diff_hard": 36
+        },
+        {
+            "level": 9,
+            "name": "Mojo Mangroves",
+            "beerRequired": 6,
+            "diff_easy": 29,
+            "diff_normal": 33,
+            "diff_hard": 36,
+            "b_diff_easy": 32,
+            "b_diff_normal": 36,
+            "b_diff_hard": 40
+        },
+        {
+            "level": 10,
+            "name": "Northrunt",
+            "beerRequired": 6,
+            "diff_easy": 32,
+            "diff_normal": 36,
+            "diff_hard": 40,
+            "b_diff_easy": 42,
+            "b_diff_normal": 47,
+            "b_diff_hard": 52
+        },
+        {
+            "level": 11,
+            "name": "Shadowrock Mountain",
+            "beerRequired": 6,
+            "diff_easy": 42,
+            "diff_normal": 47,
+            "diff_hard": 52,
+            "b_diff_easy": 46,
+            "b_diff_normal": 52,
+            "b_diff_hard": 58
+        },
+        {
+            "level": 12,
+            "name": "Plains of Oz'korr",
+            "beerRequired": 6,
+            "diff_easy": 48,
+            "diff_normal": 53,
+            "diff_hard": 59,
+            "b_diff_easy": 52,
+            "b_diff_normal": 59,
+            "b_diff_hard": 65
+        },
+        {
+            "level": 13,
+            "name": "Nevermoor",
+            "beerRequired": 6,
+            "diff_easy": 50,
+            "diff_normal": 55,
+            "diff_hard": 62,
+            "b_diff_easy": 55,
+            "b_diff_normal": 62,
+            "b_diff_hard": 68
+        },
+        {
+            "level": 14,
+            "name": "Rotten Lands",
+            "beerRequired": 6,
+            "diff_easy": 55,
+            "diff_normal": 61,
+            "diff_hard": 68,
+            "b_diff_easy": 61,
+            "b_diff_normal": 68,
+            "b_diff_hard": 75
+        }
+    ]
+}
